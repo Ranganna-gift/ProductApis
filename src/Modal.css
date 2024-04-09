@@ -1,0 +1,71 @@
+/* Modal Styles */
+/* Modal Styles */
+.modal {
+    display: block; /* Ensure the modal is visible */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000; /* Ensure the modal appears above other content */ /* Semi-transparent background */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width:50%;
+    /* Box shadow */
+  }
+  
+  /* Close Button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: red; /* Change color on hover */
+  }
+  
+  /* Submit Button */
+  .submit-button,
+  .cancel-button {
+    background-color: #4caf50; /* Green background for submit button */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    margin-top: 10px; /* Add margin between buttons */
+  }
+  
+  .submit-button:hover,
+  .cancel-button:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  
+  /* Form Input Fields */
+  .input-container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between input fields */
+    margin-bottom: 10px; /* Add margin below input container */
+  }
+  
+  .input-container label {
+    width: 30%; /* Set label width */
+  }
+  
+  .input-container input,
+  .input-container textarea {
+    width: 65%; /* Set input width */
+  }
