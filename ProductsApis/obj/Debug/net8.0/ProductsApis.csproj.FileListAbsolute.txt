@@ -16,7 +16,6 @@ C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\ProductsApis.Assemb
 C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\ProductsApis.csproj.CoreCompileInputs.cache
 C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\ProductsApis.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\ProductsApis.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\ProductsApis.sourcelink.json
 C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Ranganna\source\repos\ProductsApis\obj\Debug\net8.0\staticwebassets\msbuild.ProductsApis.Microsoft.AspNetCore.StaticWebAssets.props

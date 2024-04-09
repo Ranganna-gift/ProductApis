@@ -51,7 +51,7 @@ namespace ProductAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateProduct(Guid id, Product product)
+        public IActionResult UpdateProduct(Guid id, Products product)
         {
             var existingProduct = _products.FirstOrDefault(p => p.Id == id);
             if (existingProduct == null)
@@ -88,4 +88,14 @@ namespace ProductAPI.Controllers
         public string Description { get; set; }
         public decimal Price { get; set; }
     }
+    public class Products
+    {
+        
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+    }
+
+
+
 }
